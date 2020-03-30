@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(planeteer)
   
-planeteer.collect{|calls| element.capitalize()}# code an argument here
+planeteer.collect{|calls| calls.capitalize}# code an argument here
   # Your code here
 end
 
