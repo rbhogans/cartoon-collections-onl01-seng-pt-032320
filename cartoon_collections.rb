@@ -11,6 +11,5 @@ calls.any? {|call| call.length>4}
 end
 
 def find_the_cheese(string)
-  cheese_types = ["cheddar", "gouda", "camembert"]
    strings.detect {|string| string=="cheddar" || string=="camembert" || string=="gouda"}
     end
